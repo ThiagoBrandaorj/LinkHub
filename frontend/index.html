@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinkHub - Seu Hub de Links</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="profile">
+                <img src="images/fabricio.jpg" alt="Chef Fabrício" class="avatar" id="avatar">
+                <h1 id="name">Fabrício Diniz</h1>
+                <p class="subtitle" id="title">Chef de Cozinha • Especialista em Gastronomia</p>
+                <p class="bio" id="bio">Transformando ingredientes em experiências memoráveis. Apaixonado por sabores autênticos e técnicas refinadas. Bem-vindo à minha cozinha!</p>
+            </div>
+        </header>
+
+        <main>
+            <div class="links-container" id="links-container">
+                <!-- Links serão carregados via JavaScript -->
+                <div class="loading">
+                    <div class="spinner"></div>
+                    <p>Carregando links...</p>
+                </div>
+            </div>
+
+            <div class="stats" id="stats">
+                <!-- Estatísticas serão carregadas via JavaScript -->
+            </div>
+
+            <div class="social-container" id="social-container">
+                <!-- Ícones sociais serão carregados via JavaScript -->
+            </div>
+        </main>
+
+        <footer>
+            <p class="footer-text" id="footer-text">© 2023 LinkHub - Todos os links em um só lugar</p>
+            <p id="visitor-count">Visitantes hoje: <span id="visitor-number">0</span></p>
+            <p class="api-status">API Status: <span id="api-status">Conectando...</span></p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
