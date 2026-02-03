@@ -80,9 +80,9 @@ header {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    object-position: center 30%;
+    object-position: center 50%;
     object-fit: cover;
-    border: 6px solid var(--light-color);
+    border: 3px solid var(--light-color);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
     margin-bottom: 1.5rem;
     transition: var(--transition);
